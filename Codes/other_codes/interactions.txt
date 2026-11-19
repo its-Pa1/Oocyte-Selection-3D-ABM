@@ -1,0 +1,3 @@
+# Gene interaction matrix 
+5 -4
+-8 5

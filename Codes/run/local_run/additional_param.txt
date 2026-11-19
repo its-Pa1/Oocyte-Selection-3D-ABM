@@ -1,0 +1,10 @@
+nbdFactor 2.0 # times the radius of biggest cell for the nbd detection
+alpha 0.1 # factor for germ cells in the score 0.1 
+beta 0.9 # factor for somatic cells in the score 0.9
+PTN_threshold 15.25 # threshold for second protein (PTN, pro nurse) to be identified as nurse cell
+nurse_cell_activation_file nurse_cell_activation_counts_test.txt
+transfer_rate_mean  48.0    # hours (mean timeline to reach nucleus)
+transfer_rate_std   6.0     # hours (std deviation)
+transfer_rate_min   36.0    # hours (fastest: 1.5 days)
+transfer_rate_max   60.0    # hours (slowest: 2.5 days)
+reference_nuclei_factor 0.2

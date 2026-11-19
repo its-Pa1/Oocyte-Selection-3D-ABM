@@ -1,0 +1,7 @@
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.hpp linguist-language=C++
+# Treat Jupyter notebooks as documentation so they don't skew language stats
+*.ipynb linguist-documentation
+CMakeLists.txt linguist-language=CMake
+*.md linguist-documentation

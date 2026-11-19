@@ -1,0 +1,10 @@
+# Kinetic Params, Degradation rates for mRNA and protein
+0.1  # d0: mRNA degradation rate, d0_1 now
+0.02 # d1: Protein degradation rate, make sure d0-d1 is not zero
+
+# Bursting parameters
+1.0  # a0: Basal transcription rate 0.1
+10.0  # a1: Transcriptional activation rate 6
+2.5  # a2:  Burst size  5.5
+# New degradation rate for mRNA 2
+0.1 # d0_2 , same as d0 now

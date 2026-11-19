@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0", // Specify the version of the task configuration schema
+    "tasks": [
+        {
+            "label": "Generate Doxygen Documentation",
+            "type": "shell",
+            "command": "doxygen Doxyfile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

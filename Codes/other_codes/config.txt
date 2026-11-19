@@ -1,0 +1,5 @@
+Number_Of_Genes: 2
+Number_Of_Parameters: 6
+External_Signal_Coeff: 20.0
+SIGNAL_STRENGTH = 0.5
+Basal_activity_Phi: -1.0

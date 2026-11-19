@@ -1,0 +1,48 @@
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Simulation parameters
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PRNG_SEED 1421746927 # pseudo-random generator seed n or automatically generated (AUTO)
+MAXTIME 240 # maximal time T for the simulations
+DT 0.5 # it was 0.1 # core simulator time step
+BACKUP_DT 240 # Backup time step
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# to add pop: 
+# 1: [cell number], 
+# 2: [type in CellType.values.in], 
+# 3: [plugin name], 
+# 4: [MoveBehaviour (m in {IMMOBILE, MOBILE, MOTILE})], 
+# 5: [volume doubling time],
+# 6: [minimal initial volume],
+# 7: [initial position file]
+#ADD_POPULATION     1       2       3        4       5       6       7
+ADD_POPULATION      128   SOMATIC  SOMATIC  IMMOBILE  5      10    Somatic_coordinates_sphere.txt
+ADD_POPULATION      32    GERM   GERM      IMMOBILE   80     40    Germ_coordinates_sphere.txt
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+USECONTACTAREA 1 # cell signals weighed by the cell-cell contact, contact area (1) or not (0)
+# WORLDSIZE 100,100,100 # size of the computational domain (default: 40, 40, 40)
+# WORLDMARGIN 1,1,1  # size of the computational domain (defaults to 2, 2, 2), I guess step size
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Cell parameters
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+R_RATIO 0.90 # ratio between internal and external radii
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Output parameters
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SIGNAL GERM
+SIGNAL S_nbd
+SIGNAL NURSE_CELL_ACTIVATION
+SIGNAL GERM_mRNA1
+SIGNAL GERM_mRNA2
+SIGNAL GERM_P1
+SIGNAL GERM_P2
+SIGNAL DONOR_CELL
+SIGNAL TOTAL_GERM_NBD_COUNT
+SIGNAL TOTAL_SOMATIC_NBD_COUNT
+WRITEORIENTATION 1 #record orientation coordinates to trajectory file

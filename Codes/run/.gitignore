@@ -1,0 +1,20 @@
+
+# ignore simulation outputs everywhere
+**/normalization.txt
+**/trajectory.txt
+**/*.bak
+**/alea_*
+**/backup_*
+**/slurm-*
+**/slurm-logs/
+**/dask-worker-space/
+**/normalization*
+**/trajectory*
+**/nurse_cell*
+**/Quant_Files/
+**/worker*
+Result_Files/
+**/Result_Files/**
+**/Plots/
+**/build/**
+build/

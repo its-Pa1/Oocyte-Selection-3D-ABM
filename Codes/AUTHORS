@@ -1,0 +1,15 @@
+Copyright (C) 2016 Samuel Bernard <samuel.bernard@inria.fr>
+Copyright (C) 2016 Carole Knibbe <carole.knibbe@inria.fr>
+Copyright (C) 2016 David Parsons <david.parsons@inria.fr>
+
+Contact: simuscale-contact@lists.gforge.inria.fr
+
+Copyright (C) 2026 Pawan Kumar <pawan.a.kumar@inria.fr>
+
+Developed by Pawan Kumar:
+- GRN module
+- Cell_Germ module
+- Cell_Somatic module
+- updated view files
+- Python scripts
+- universal CMake and cross-platform adaptability
