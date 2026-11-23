@@ -30,7 +30,7 @@ The project is also maintained at the following locations:
   [Simuscale – pawan branch](https://gitlab.inria.fr/bernard1/simuscale/-/tree/pawan)
 
 - **GitHub:**
-  [Ovarian Development Model](https://github.com/its-Pa1/Ovarian-Development-Model)
+  [Oocyte-Selection-3D-ABM](https://github.com/its-Pa1/Oocyte-Selection-3D-ABM)
 
 ## Installation and Usage
 
